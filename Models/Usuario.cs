@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace InicioSesionYRegistro.Models;
 
 public class Usuario{
+    [Key]
     public int UsuarioId {get;set;}
 
     [Required(ErrorMessage = "Debe ingresar este dato.")]
