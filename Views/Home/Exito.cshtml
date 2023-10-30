@@ -1,0 +1,9 @@
+<nav>
+    <div class="logout">
+        <a asp-controller="Home" asp-action="Logout">Logout</a>
+    </div>
+</nav>
+<div class="text-center mt-5">
+    <h2>Bienvenido @Context.Session.GetString("Nombre")</h2>
+    <h3>¡¡¡Éxito!!!</h3>
+</div>
